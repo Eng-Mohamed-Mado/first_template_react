@@ -5,6 +5,7 @@ import About from './components/About'
 import Overview from './components/Overview'
 import WatchVideo from './components/WatchVideo'
 import CreativeSpeakers from './components/CreativeSpeakers'
+import OurPrograms from './components/OurPrograms'
 const Home = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Home = () => {
         <Overview/>
         <WatchVideo/>
         <CreativeSpeakers/>
+        <OurPrograms/>
     </>
   )
 }
