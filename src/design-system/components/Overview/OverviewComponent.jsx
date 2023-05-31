@@ -3,7 +3,7 @@ import React from 'react'
 // Import Font-Awesome
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { Description, OverviewWrapper, Title } from './style_overview'
-const Overview = ({icon,title,description}) => {
+const OverviewComponent = ({icon,title,description}) => {
     
     
     return (
@@ -19,4 +19,4 @@ const Overview = ({icon,title,description}) => {
   )
 }
 
-export default Overview
+export default OverviewComponent

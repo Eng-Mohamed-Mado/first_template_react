@@ -3,6 +3,7 @@
     secondary: "#090707",
     gray: "#707070",
     white: "#fff",
-    active: "#66ccff"
+    active: "#66ccff",
+    overBg:"#222",
 };
 export default theme;
