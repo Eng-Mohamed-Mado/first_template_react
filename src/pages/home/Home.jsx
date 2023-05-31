@@ -6,6 +6,7 @@ import Overview from './components/Overview'
 import WatchVideo from './components/WatchVideo'
 import CreativeSpeakers from './components/CreativeSpeakers'
 import OurPrograms from './components/OurPrograms'
+import RegisterHere from './components/RegisterHere'
 const Home = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Home = () => {
         <WatchVideo/>
         <CreativeSpeakers/>
         <OurPrograms/>
+        <RegisterHere/>
     </>
   )
 }

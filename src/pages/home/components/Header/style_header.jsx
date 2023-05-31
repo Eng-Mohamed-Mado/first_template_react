@@ -6,7 +6,7 @@ export const HeaderWrapper=styled('section')`
     height: 800px;
     padding: 20% 0 ;
     text-align: center;
-    background: url(${header}) no-repeat center center /cover;
+    background: url(${header}) no-repeat center center /cover fixed;
 
 `;
 
