@@ -42,3 +42,6 @@ git add . && git commit -m "setup Project React" && git push -u origin main
           }
         }
 
+
+<!--   swiper --> => مكتبه تشبه owl caracul
+ -> npm i swiper

@@ -5,5 +5,6 @@
     white: "#fff",
     active: "#66ccff",
     overBg:"#222",
+    whiteSmoke:"#f5f5f5",
 };
 export default theme;
