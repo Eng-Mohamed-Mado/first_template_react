@@ -7,6 +7,7 @@ import WatchVideo from './components/WatchVideo'
 import CreativeSpeakers from './components/CreativeSpeakers'
 import OurPrograms from './components/OurPrograms'
 import RegisterHere from './components/RegisterHere'
+import Accordion from './components/Accordion'
 const Home = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Home = () => {
         <CreativeSpeakers/>
         <OurPrograms/>
         <RegisterHere/>
+        <Accordion/>
     </>
   )
 }

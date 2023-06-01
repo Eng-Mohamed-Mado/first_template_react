@@ -1,6 +1,7 @@
 import React from 'react'
 import { Div, DivVideo, Pr, Span, WatchWrapper } from './style_watxhvideo'
 
+const url = "https://www.youtube.com/embed/t8mnqGfseVg"
 const WatchVideo = () => {
   return (
     <div className='container'>
@@ -14,7 +15,7 @@ const WatchVideo = () => {
                 </Pr>
             </Div>
             <DivVideo>
-            <iframe width="100%" height="350px" src="https://www.youtube.com/embed/t8mnqGfseVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="350px" src={url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </DivVideo>
         </WatchWrapper>
     </div>

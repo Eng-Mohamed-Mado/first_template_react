@@ -1,5 +1,5 @@
 import React from 'react'
-import { ColoredTitle, FromWrapper, RegisterContainer, RegisterHereWrapper, RegisterInput, RegisterTitle ,Text, TextTwo} from './style_registerhere'
+import { ColoredTitle, FromWrapper, RegisterBtn, RegisterContainer, RegisterHereWrapper, RegisterInput, RegisterTitle ,Text, TextTwo} from './style_registerhere'
 
 const RegisterHere = () => {
   return (
@@ -20,7 +20,10 @@ const RegisterHere = () => {
                     <RegisterInput type='number' placeholder='Phone Number'/>
                     <RegisterInput type='email' placeholder='Email Address'/>
                 </FromWrapper>
-            </RegisterContainer>
+                </RegisterContainer>
+                <div style={{textAlign:"right",marginTop:"20px"}}>
+                <RegisterBtn>Register</RegisterBtn>
+                </div>
         </div>
     </RegisterHereWrapper>
   )

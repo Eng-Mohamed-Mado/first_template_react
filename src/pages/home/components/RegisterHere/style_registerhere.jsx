@@ -55,3 +55,21 @@ export const RegisterInput = styled("input")`
         font-size: 1rem;
     }
 `;
+
+export const RegisterBtn=styled('button')` 
+    label: RegisterBtn;
+    font-size: 1rem;
+    padding:1rem 3rem;
+    border: 1px solid ${theme.primaary};
+    background: ${theme.primaary};
+    border-radius: 25px;
+    cursor: pointer;
+    color: ${theme.white};
+    transition:  all 0.3s ;
+    :hover{
+    color: ${theme.secondary};  
+    background: ${theme.white};
+    border: 1px solid ${theme.white};
+
+    }
+`;
