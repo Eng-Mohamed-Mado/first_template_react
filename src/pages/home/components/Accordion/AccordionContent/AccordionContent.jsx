@@ -3,7 +3,7 @@ import { AccordionWrapper, Content, H2, Item, P, Title ,Wrapper} from './style_A
 import { DataAccordion } from './Data_Accordion'
 
  const AccordionContent  = () => {
-    const [active,setActive] = useState(null)
+    const [active,setActive] = useState(0)
 
     // Function Toggle Accordion
     const toggle = (idx)=>{
@@ -14,6 +14,7 @@ import { DataAccordion } from './Data_Accordion'
         }setActive(idx)
     } 
   return (
+    <div style={{height:"350px",margin:"2rem 0"}}>
     <Wrapper>
         <AccordionWrapper>
            {DataAccordion.map((item,idx)=>(
@@ -30,6 +31,7 @@ import { DataAccordion } from './Data_Accordion'
            ))}
         </AccordionWrapper>
     </Wrapper>
+    </div>
   )
 }
 export default AccordionContent

@@ -12,6 +12,7 @@ export const AccordionWrapper = styled("div")`
     label: AccordionWrapper;
     width: 81%;
     padding: 0px 6rem;
+    margin-bottom: 20%;
 `
 
 export const Item = styled("div")`
